@@ -1,0 +1,28 @@
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> export OMP_NUM_THREADS=1
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> ./sobel_cpu
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.393615 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> export OMP_NUM_THREADS=2
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> ./sobel_cpu
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.192433 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> export OMP_NUM_THREADS=4
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> ./sobel_cpu
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.102095 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> export OMP_NUM_THREADS=8
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> ./sobel_cpu
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0528541 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> 
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> export OMP_NUM_THREADS=16
+sicheng@perlmutter:login16:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> ./sobel_cpu
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.029988 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 

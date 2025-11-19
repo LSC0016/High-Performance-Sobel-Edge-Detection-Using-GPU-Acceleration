@@ -1,0 +1,75 @@
+sicheng@nid001056:/pscratch/sd/s/sicheng/sobel-harness-instructional/build> ./sobel_gpu
+ Read data from the file ../data/zebra-gray-int8-4x 
+ GPU configuration: 1 blocks, 32 threads per block 
+ Elapsed time for 1 blocks, 32 threads per block: 874.204407 ms
+ GPU configuration: 4 blocks, 32 threads per block 
+ Elapsed time for 4 blocks, 32 threads per block: 227.860825 ms
+ GPU configuration: 16 blocks, 32 threads per block 
+ Elapsed time for 16 blocks, 32 threads per block: 59.483616 ms
+ GPU configuration: 64 blocks, 32 threads per block 
+ Elapsed time for 64 blocks, 32 threads per block: 15.313184 ms
+ GPU configuration: 256 blocks, 32 threads per block 
+ Elapsed time for 256 blocks, 32 threads per block: 4.324512 ms
+ GPU configuration: 1024 blocks, 32 threads per block 
+ Elapsed time for 1024 blocks, 32 threads per block: 1.415424 ms
+ GPU configuration: 1 blocks, 64 threads per block 
+ Elapsed time for 1 blocks, 64 threads per block: 397.357697 ms
+ GPU configuration: 4 blocks, 64 threads per block 
+ Elapsed time for 4 blocks, 64 threads per block: 125.946495 ms
+ GPU configuration: 16 blocks, 64 threads per block 
+ Elapsed time for 16 blocks, 64 threads per block: 33.307838 ms
+ GPU configuration: 64 blocks, 64 threads per block 
+ Elapsed time for 64 blocks, 64 threads per block: 7.978336 ms
+ GPU configuration: 256 blocks, 64 threads per block 
+ Elapsed time for 256 blocks, 64 threads per block: 2.554592 ms
+ GPU configuration: 1024 blocks, 64 threads per block 
+ Elapsed time for 1024 blocks, 64 threads per block: 0.810016 ms
+ GPU configuration: 1 blocks, 128 threads per block 
+ Elapsed time for 1 blocks, 128 threads per block: 210.503387 ms
+ GPU configuration: 4 blocks, 128 threads per block 
+ Elapsed time for 4 blocks, 128 threads per block: 68.728767 ms
+ GPU configuration: 16 blocks, 128 threads per block 
+ Elapsed time for 16 blocks, 128 threads per block: 17.215712 ms
+ GPU configuration: 64 blocks, 128 threads per block 
+ Elapsed time for 64 blocks, 128 threads per block: 4.321216 ms
+ GPU configuration: 256 blocks, 128 threads per block 
+ Elapsed time for 256 blocks, 128 threads per block: 1.408896 ms
+ GPU configuration: 1024 blocks, 128 threads per block 
+ Elapsed time for 1024 blocks, 128 threads per block: 0.502080 ms
+ GPU configuration: 1 blocks, 256 threads per block 
+ Elapsed time for 1 blocks, 256 threads per block: 146.887802 ms
+ GPU configuration: 4 blocks, 256 threads per block 
+ Elapsed time for 4 blocks, 256 threads per block: 37.477985 ms
+ GPU configuration: 16 blocks, 256 threads per block 
+ Elapsed time for 16 blocks, 256 threads per block: 10.029376 ms
+ GPU configuration: 64 blocks, 256 threads per block 
+ Elapsed time for 64 blocks, 256 threads per block: 2.662688 ms
+ GPU configuration: 256 blocks, 256 threads per block 
+ Elapsed time for 256 blocks, 256 threads per block: 0.814016 ms
+ GPU configuration: 1024 blocks, 256 threads per block 
+ Elapsed time for 1024 blocks, 256 threads per block: 0.477344 ms
+ GPU configuration: 1 blocks, 512 threads per block 
+ Elapsed time for 1 blocks, 512 threads per block: 85.888252 ms
+ GPU configuration: 4 blocks, 512 threads per block 
+ Elapsed time for 4 blocks, 512 threads per block: 21.145727 ms
+ GPU configuration: 16 blocks, 512 threads per block 
+ Elapsed time for 16 blocks, 512 threads per block: 5.715744 ms
+ GPU configuration: 64 blocks, 512 threads per block 
+ Elapsed time for 64 blocks, 512 threads per block: 1.516448 ms
+ GPU configuration: 256 blocks, 512 threads per block 
+ Elapsed time for 256 blocks, 512 threads per block: 0.535968 ms
+ GPU configuration: 1024 blocks, 512 threads per block 
+ Elapsed time for 1024 blocks, 512 threads per block: 0.416672 ms
+ GPU configuration: 1 blocks, 1024 threads per block 
+ Elapsed time for 1 blocks, 1024 threads per block: 47.755360 ms
+ GPU configuration: 4 blocks, 1024 threads per block 
+ Elapsed time for 4 blocks, 1024 threads per block: 13.278624 ms
+ GPU configuration: 16 blocks, 1024 threads per block 
+ Elapsed time for 16 blocks, 1024 threads per block: 3.439744 ms
+ GPU configuration: 64 blocks, 1024 threads per block 
+ Elapsed time for 64 blocks, 1024 threads per block: 0.937024 ms
+ GPU configuration: 256 blocks, 1024 threads per block 
+ Elapsed time for 256 blocks, 1024 threads per block: 0.541088 ms
+ GPU configuration: 1024 blocks, 1024 threads per block 
+ Elapsed time for 1024 blocks, 1024 threads per block: 0.404160 ms
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 

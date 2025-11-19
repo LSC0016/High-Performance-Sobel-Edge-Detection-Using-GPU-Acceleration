@@ -1,0 +1,2 @@
+/media/sf_CSC746/CP5/sobel-harness-instructional/build/CMakeFiles/edit_cache.dir
+/media/sf_CSC746/CP5/sobel-harness-instructional/build/CMakeFiles/rebuild_cache.dir
